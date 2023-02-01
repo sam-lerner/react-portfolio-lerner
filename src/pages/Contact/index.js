@@ -1,8 +1,26 @@
 import React from 'react';
 
+
+const styles = {
+  header: {
+      backgroundColor: "rgb(218, 135, 34)",
+      color: "#2c2471",
+      textAlign: "center"
+  },
+  card: {
+      backgroundColor: "#2c2471",
+      color: "rgb(218, 135, 34)",
+      marginLeft: "6vw",
+      marginRight: "6vw",
+      marginBottom: "2vh",
+      padding: "2vh",
+      marginTop: "6vh",
+      textAlign: "center"
+  }
+}
 export default function Contact() {
   return (
-    <div>
+    <div style={styles.card}>
       <h1>Contact Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
