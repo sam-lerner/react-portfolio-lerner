@@ -4,22 +4,25 @@ import background from "./assets/images/salma.jpg"
 
 const styles = {
   body: {
-      // backgroundColor: "rgb(71, 71, 95)",
-      backgroundImage: `url(${background})`,
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      width: '100vw',
-      height: '100vh',
-      color: "white",
-      fontFamily: "Century Gothic"
+    backgroundImage: `url(${background})`,
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    position: 'relative',
+    zIndex: '999999',
+    width: '100%',
+    minHeight: '150vh',
+    height: '150vh',
+    fontFamily: "Century Gothic"
   }
 }
 
 const App = () => {
-  return <div style={styles.body}>
+  return <div style={styles.body} >
       <PortfolioContainer />;
-  </div>
+   
+    </div>
+
 }
 
 export default App;

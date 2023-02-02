@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai';
 
 const styles = {
   header: {
@@ -8,6 +8,7 @@ const styles = {
       textAlign: "center"
   },
   card: {
+    className:"container",  
       backgroundColor: "#2c2471",
       color: "rgb(218, 135, 34)",
       marginLeft: "6vw",
@@ -22,14 +23,11 @@ export default function Contact() {
   return (
     <div style={styles.card}>
       <h1>Contact Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <ul>
+      <a href="mailto:sam.a.lerner@gmail.com"><AiFillMail/></a>
+      <a href="https://www.linkedin.com/in/sam-lerner-5943b41b3/" ><AiFillLinkedin/></a>
+        <a href="https://github.com/sam-lerner" ><AiFillGithub/></a>
+        </ul>
     </div>
   );
 }

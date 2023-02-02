@@ -8,7 +8,8 @@ const styles = {
       textAlign: "center"
   },
   card: {
-      backgroundColor: "#2c2471",
+    className:"container",  
+    backgroundColor: "#2c2471",
       color: "rgb(218, 135, 34)",
       marginLeft: "6vw",
       marginRight: "6vw",

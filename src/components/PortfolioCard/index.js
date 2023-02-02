@@ -11,6 +11,7 @@ export default function PortfolioCard({ project }) {
             textAlign: "center"
         },
         card: {
+            className:"container",  
             backgroundColor: "#2c2471",
             color: "rgb(218, 135, 34)",
             marginLeft: "6vw",

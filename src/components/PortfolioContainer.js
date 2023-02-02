@@ -5,6 +5,21 @@ import Portfolio from './Portfolio';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
+import Footer from '../components/Footer'
+
+const styles= {
+    body: {
+    height: '150vh',
+    color: "blue",
+    fontFamily: "Century Gothic"
+  },
+    footer: {
+        position: 'absolute',
+        left: '0',
+        right: '0',
+        bottom: '0'
+    }
+}
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -29,9 +44,12 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div style={styles.body}>
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <div style={styles.footer}>
+            <Footer/>;
+            </div>
         </div>
     );
 }

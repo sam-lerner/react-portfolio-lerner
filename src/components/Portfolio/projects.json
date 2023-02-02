@@ -26,6 +26,36 @@
         "image_link": "#"
     },
     {
+        "name": "CodeHire",
+        "description": "CodeHire is a coding employment website. In order to use it, users will need to create a profile and login credentials. In addition to their on-site profile, they are encouraged to also link to their Github and LinkedIn pages. If a user selects the employee option, they are given the option of posting jobs through the employer portal. They are also able to use a search page to find employees by skill set. Finally, users who are not employees are able to find and comment on job postings. This project was a group project created for my coding bootcamp.",
+        "technologies": [
+            "JavaScript",
+            "HTML5",
+            "CSS",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "mongoose"
+        ],
+        "deployed_url": "https://code-hire-refactor.herokuapp.com/",
+        "image_link": "#"
+    },
+    {
+        "name": "CodeHire",
+        "description": "CodeHire is a coding employment website. In order to use it, users will need to create a profile and login credentials. In addition to their on-site profile, they are encouraged to also link to their Github and LinkedIn pages. If a user selects the employee option, they are given the option of posting jobs through the employer portal. They are also able to use a search page to find employees by skill set. Finally, users who are not employees are able to find and comment on job postings. This project was a group project created for my coding bootcamp.",
+        "technologies": [
+            "JavaScript",
+            "HTML5",
+            "CSS",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "mongoose"
+        ],
+        "deployed_url": "https://code-hire-refactor.herokuapp.com/",
+        "image_link": "#"
+    },
+    {
         "name": "Password Generator",
         "description": "A simple password generation app. The user is prompted for inputs on password length and character sets to draw from. Upon completion, a random password that fits the criteria will be generated.",
         "technologies": [
