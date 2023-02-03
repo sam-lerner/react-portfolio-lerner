@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../Header';
 
 const styles = {
   nav: { 
@@ -9,7 +10,9 @@ const styles = {
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul style={styles.nav} className="nav nav-tabs">
+    <div style={styles.nav}>
+    <Header/>
+    <ul  className="nav nav-tabs">
       <li className="nav-item">
         <a
           href="#home"
@@ -56,6 +59,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

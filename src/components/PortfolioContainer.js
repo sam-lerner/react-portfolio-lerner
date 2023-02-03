@@ -5,7 +5,8 @@ import Portfolio from './Portfolio';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
-import Footer from '../components/Footer'
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const styles= {
     body: {
@@ -45,10 +46,11 @@ export default function PortfolioContainer() {
 
     return (
         <div style={styles.body}>
+            {/* <Header/> */}
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <div style={styles.footer}>
-            <Footer/>;
+            <Footer/>
             </div>
         </div>
     );
