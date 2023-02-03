@@ -23,11 +23,12 @@ export default function Contact() {
   return (
     <div style={styles.card}>
       <h1>Contact Page</h1>
-      <ul>
+<br></br>
+<h1>
       <a href="mailto:sam.a.lerner@gmail.com"><AiFillMail/></a>
       <a href="https://www.linkedin.com/in/sam-lerner-5943b41b3/" ><AiFillLinkedin/></a>
         <a href="https://github.com/sam-lerner" ><AiFillGithub/></a>
-        </ul>
+        </h1>
     </div>
   );
 }
