@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from 'react-icons/ai';
 
 const Footer = () => {
   return (
@@ -7,6 +8,11 @@ const Footer = () => {
         <h6>
           Designed by Sam Lerner
         </h6>
+      <h1>
+        {/* <a href="mailto:sam.a.lerner@gmail.com"><AiFillMail /></a> */}
+        <a href="https://www.linkedin.com/in/sam-lerner-5943b41b3/" ><AiFillLinkedin /></a>
+        <a href="https://github.com/sam-lerner" ><AiFillGithub /></a>
+      </h1>
       </div>
     </footer>
   );
