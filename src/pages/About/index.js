@@ -29,7 +29,7 @@ export default function About() {
       <h1>About Me</h1>
       <img src={profilePhoto} class="img-fluid" alt="Photo of Sam Lerner" style={{width: '200px'}} ></img>
       <br></br><br></br>
-      <p className= "text-start">
+      <p>
         My name is Sam Lerner and I am a full-stack web developer based in northern New Jersey. After a 20 year career working in Sound Design for theater and live performance, I decided to try something new. While I'm still figuring this coding thing out, I am very proud of my progress so far! Thank you for visiting my portfolio. 
       </p>
     </div>
