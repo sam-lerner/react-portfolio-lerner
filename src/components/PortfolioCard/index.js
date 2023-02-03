@@ -1,5 +1,6 @@
 // This will serve up the portfolio cards
 import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 
 export default function PortfolioCard({ project }) {
     { console.log(project) }
@@ -23,14 +24,17 @@ export default function PortfolioCard({ project }) {
     }
 
     return <div style={styles.card}>
+        {/* <img className="d-block w-100" src={project.image_link}/> */}
         <h3 style={styles.header}>{project.name}</h3>
         <p>{project.description}</p>
         <ul>Technologies used: </ul>
         {project.technologies.map((element) => {
             return <li>{element}</li>
         })}
+         <br></br>
         <a href={project.deployed_url}>Deployed project</a>
-        {/* <img src={project.image_link}>Project image</img> */}
-    </div>
+        <br></br>
+        <a href={project.repo_url}>Github Repo</a>
+        </div>
 
 }

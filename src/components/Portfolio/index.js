@@ -1,22 +1,31 @@
 import React from 'react';
 import PortfoioCard from '../PortfolioCard';
 import projects from './projects.json';
+import Carousel from 'react-bootstrap/Carousel';
 
 const styles = {
   header: {
       color: "white",
-      textAlign: "center"
+      textAlign: "center",
+      marginTop: "6vh",
+      marginLeft: "6vw",
+      marginRight: "6vw",
+      padding: "2vh"
   },
 }
 
 export default function Portfolio() {
   return (
-    <div style={styles.header} >
-      <h1>Recent Projects</h1>
+    <Carousel style={styles.header} className="rounded">
+      {/* <h1>Recent Projects</h1> */}
+      
       {projects.map((element) => {
         
-        return <PortfoioCard project={element}></PortfoioCard>
+        return <Carousel.Item>
+          <PortfoioCard project={element}></PortfoioCard>
+         </Carousel.Item>
       })}
-    </div>
+     
+    </Carousel>
   );
 }
