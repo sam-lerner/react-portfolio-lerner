@@ -38,7 +38,7 @@ Thank you to classmates Eric Kirberger and Azime Nail, tutor Dru Sanchez, and TA
 
 ## Tests
 
-All tests were performed via `Insomnia`.
+N/A
 
 ## License
 This project is licensed under the MIT license.
