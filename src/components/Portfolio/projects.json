@@ -9,7 +9,7 @@
         ],
         "deployed_url": "https://sam-lerner.github.io/healthy-gigs/",
         "repo_url": "https://github.com/sam-lerner/healthy-gigs",
-        "image_link": "#"
+        "image_link": "/assets/images/codehire.jpg"
     },
     {
         "name": "CodeHire",
@@ -25,7 +25,7 @@
         ],
         "deployed_url": "https://code-hire-refactor.herokuapp.com/",
         "repo_url": "https://github.com/sam-lerner/code-hire",
-        "image_link": "../assets/images/codehire"
+        "image_link": "/assets/images/codehire.jpg"
     },
     {
         "name": "slernbook: a social media back end",
@@ -38,7 +38,7 @@
         ],
         "deployed_url": "https://drive.google.com/file/d/1FgLaV-s0WfEZR1ZOdWu-KHU--ihzQrJK/view",
         "repo_url": "https://github.com/sam-lerner/slernbook",
-        "image_link": "#"
+        "image_link": "/assets/images/codehire.jpg"
     },
     {
         "name": "The Bob Loblaw Tech Blog",
@@ -55,7 +55,7 @@
         ],
         "deployed_url": "https://lerner-tech-blog.herokuapp.com/",
         "repo_url":"https://github.com/sam-lerner/bob-loblaw-tech-blog",
-        "image_link": "#"
+        "image_link": "/assets/images/codehire.jpg"
     },
     {
         "name": "Five Day Weather Planner",
@@ -67,7 +67,7 @@
         ],
         "deployed_url": "https://sam-lerner.github.io/weather-dashboard-sam-lerner/",
         "repo_url":"https://github.com/sam-lerner/weather-dashboard-sam-lerner",
-        "image_link": "#"
+        "image_link": "/assets/images/codehire.jpg"
     },
     {
         "name": "Password Generator",
@@ -79,6 +79,6 @@
         ],
         "deployed_url": "https://sam-lerner.github.io/unique-password-generator-sl//",
         "repo_url": "https://github.com/sam-lerner/unique-password-generator-sl",
-        "image_link": "#"
+        "image_link": "/assets/images/codehire.jpg"
     }
 ]

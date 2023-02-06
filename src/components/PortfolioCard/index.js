@@ -1,10 +1,12 @@
 // This will serve up the portfolio cards
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import picture from '../../assets/images/codehire.jpg'
+import JASON from "../Portfolio/projects.json"
 
 export default function PortfolioCard({ project }) {
     { console.log(project) }
-
+{console.log(JASON)}
     const styles = {
         header: {
             backgroundColor: "rgb(218, 135, 34)",
@@ -24,7 +26,6 @@ export default function PortfolioCard({ project }) {
     }
 
     return <div style={styles.card}>
-        {/* <img className="d-block w-100" src={project.image_link}/> */}
         <h3 style={styles.header}>{project.name}</h3>
         <p>{project.description}</p>
         <ul>Technologies used: </ul>
@@ -35,6 +36,8 @@ export default function PortfolioCard({ project }) {
         <a href={project.deployed_url}>Deployed project</a>
         <br></br>
         <a href={project.repo_url}>Github Repo</a>
+        <br></br>
+        <img className="d-block mx-auto img-fluid" style={{margin:10}} src={project.image_link}/>
         </div>
 
 }

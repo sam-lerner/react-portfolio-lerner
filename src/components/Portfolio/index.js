@@ -1,6 +1,6 @@
 import React from 'react';
 import PortfoioCard from '../PortfolioCard';
-import projects from './projects.json';
+import {projects} from './projects.js';
 import Carousel from 'react-bootstrap/Carousel';
 
 const styles = {
