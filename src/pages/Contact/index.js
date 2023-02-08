@@ -67,7 +67,8 @@ export default function Contact() {
   return (
     <div style={styles.card}>
       <h1>Contact Page</h1>
-      {sumbitted ? <h1>Sent!</h1> : ""}
+      {sumbitted ? <h1>Sent!</h1> : 
+      <>
       <br></br>
       <Form onSubmit={onSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -93,7 +94,8 @@ export default function Contact() {
           Submit
         </Button>
       </Form>
-
+      </>
+}
     </div>
   );
 }
