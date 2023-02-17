@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-lerner/static/css/main.44f8b8b5.css",
-    "main.js": "/react-portfolio-lerner/static/js/main.5e0dff39.js",
+    "main.js": "/react-portfolio-lerner/static/js/main.6f801112.js",
     "static/js/787.0c47155f.chunk.js": "/react-portfolio-lerner/static/js/787.0c47155f.chunk.js",
     "static/media/healthy-gigs.gif": "/react-portfolio-lerner/static/media/healthy-gigs.711022d04d7469ed2505.gif",
     "static/media/slernbook.gif": "/react-portfolio-lerner/static/media/slernbook.7d671d9d51beab26b1bf.gif",
@@ -9,16 +9,17 @@
     "static/media/salma.jpg": "/react-portfolio-lerner/static/media/salma.a3d6fc886277bc2ee07e.jpg",
     "static/media/sam-lerner.jpg": "/react-portfolio-lerner/static/media/sam-lerner.2e99a39357a4c3f8cbe7.jpg",
     "static/media/password-generator.gif": "/react-portfolio-lerner/static/media/password-generator.d45997570c7d5cde5860.gif",
+    "static/media/task-sandwich.jpg": "/react-portfolio-lerner/static/media/task-sandwich.a034abf6dc972d2f39b3.jpg",
     "static/media/weather-dashboard.jpg": "/react-portfolio-lerner/static/media/weather-dashboard.4107d0ba442733b83487.jpg",
     "static/media/codehire.jpg": "/react-portfolio-lerner/static/media/codehire.28558bf4a839f8913ba7.jpg",
     "static/media/sam-lerner-resume.pdf": "/react-portfolio-lerner/static/media/sam-lerner-resume.3f437381e587db74ef25.pdf",
     "index.html": "/react-portfolio-lerner/index.html",
     "main.44f8b8b5.css.map": "/react-portfolio-lerner/static/css/main.44f8b8b5.css.map",
-    "main.5e0dff39.js.map": "/react-portfolio-lerner/static/js/main.5e0dff39.js.map",
+    "main.6f801112.js.map": "/react-portfolio-lerner/static/js/main.6f801112.js.map",
     "787.0c47155f.chunk.js.map": "/react-portfolio-lerner/static/js/787.0c47155f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44f8b8b5.css",
-    "static/js/main.5e0dff39.js"
+    "static/js/main.6f801112.js"
   ]
 }
