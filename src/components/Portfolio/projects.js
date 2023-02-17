@@ -1,6 +1,26 @@
 export const projects =
     [
         {
+            "name": "Task Sandwich",
+            "description": "Task Sandwich is a productivity website where users can create teams and then add their to-dos to various projects. Users will collaborate with other users by adding them to their team and assigning them tasks. The rewards system of sandwiches allows users to recognize others' hard work. Each user gets five sandwiches a day they can give to others. Sandwich rewards can be set by the team administrator.",
+            "technologies": [
+                "React",
+                "graphql",
+                "mongoDB",
+                "mongoDB cloud",
+                "Heroku",
+                "mongoose",
+                "bcrypt",
+                "JSON Web Tokens",
+                "JavaScript",
+                "HTML5",
+                "CSS"
+            ],
+            "deployed_url": "https://task-sandwich.herokuapp.com",
+            "repo_url": "https://github.com/sam-lerner/task-sandwich/",
+            "image_link": require ("../../assets/images/task-sandwich.jpg")
+        },
+         {
             "name": "Healthy Gigs",
             "description": "Given a city name, the website will look up events over a span of time specified by the user and also provide the current COVID-19 statistics for the city. This project was a group project created for my coding bootcamp.",
             "technologies": [
