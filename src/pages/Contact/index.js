@@ -49,7 +49,7 @@ export default function Contact() {
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         setSubmit(true)
-        setToSend( {
+        setToSend({
           from_name: '',
           // to_name: '',
           message: '',
@@ -67,35 +67,38 @@ export default function Contact() {
   return (
     <div style={styles.card}>
       <h1>Contact Page</h1>
-      {sumbitted ? <h1>Sent!</h1> : 
-      <>
-      <br></br>
-      <Form onSubmit={onSubmit}>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Full name</Form.Label>
-          <Form.Control type="textarea" placeholder="Please enter your name" name="from_name" value={toSend.from_name} onChange={handleChange} required />
-        </Form.Group>
+      {sumbitted ? <h1>Sent!</h1> :
+        <>
+          <br></br>
+          <Form onSubmit={onSubmit}>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Full name</Form.Label>
+              <Form.Control type="textarea" placeholder="Please enter your name" name="from_name" value={toSend.from_name} onChange={handleChange} required />
+            </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>E-mail address</Form.Label>
-          <Form.Control type="email" name='reply_to'
-            placeholder='Your email'
-            value={toSend.reply_to} onChange={handleChange} required />
-        </Form.Group>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>E-mail address</Form.Label>
+              <Form.Control type="email" name='reply_to'
+                placeholder='Your email'
+                value={toSend.reply_to} onChange={handleChange} required />
+            </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicText">
-          <Form.Label>Message</Form.Label>
-          <Form.Control as="textarea" rows={6} name='message'
-            placeholder='Your message'
-            value={toSend.message}
-            onChange={handleChange} required />
-        </Form.Group>
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
-      </Form>
-      </>
-}
+            <Form.Group className="mb-3" controlId="formBasicText">
+              <Form.Label>Message</Form.Label>
+              <Form.Control as="textarea" rows={6} name='message'
+                placeholder='Your message'
+                value={toSend.message}
+                onChange={handleChange} required />
+            </Form.Group>
+            <Button style={{
+              margin: 10, color: "#2c2471",
+              backgroundColor: "rgb(218, 135, 34)"
+            }} type="submit">
+              Submit
+            </Button>
+          </Form>
+        </>
+      }
     </div>
   );
 }

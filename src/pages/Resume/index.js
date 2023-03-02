@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 import resume from '../../assets/files/sam-lerner-resume.pdf'
 
 const styles = {
@@ -30,9 +31,15 @@ export default function Resume() {
   return (
     <div style={styles.card}>
       <h1>Resume Page</h1>
-      <iframe width="1000vw" height="900vh" src={require('../../assets/files/sam-lerner-resume.pdf') + "#zoom=80" } ></iframe>
+      <iframe width="1000vw" height="900vh" src={require('../../assets/files/sam-lerner-resume.pdf') + "#zoom=80"} ></iframe>
       <div className="btnDiv">
-        <button id="downloadBtn" onClick={downloadResume} value="download">Download</button>
+        <Button style={{
+          margin: 10, color: "#2c2471",
+          backgroundColor: "rgb(218, 135, 34)"
+        }}
+          id="downloadBtn" onClick={downloadResume} value="download">
+          Download
+        </Button>
       </div>
     </div>
   );
