@@ -30,7 +30,7 @@ export default function About() {
       <img src={profilePhoto} class="img-fluid" alt="Photo of Sam Lerner" style={{width: '200px'}} ></img>
       <br></br><br></br>
       <p>
-      Experienced arts professional with over 15 years of success in creative management. Proven expertise in agile workflow, budgeting, and organization, with exceptional attention to detail. Skilled in communicating and collaborating with diverse teams of both creative and technical personnel. Adaptable problem-solver with a growth mindset, able to thrive in fast-paced environments and adjust to change. Additional strengths include strategic planning, staff development, and fostering relationships with key stakeholders in the arts community.
+      Experienced project manager with a strong technical background in full-stack web development. Proven ability to lead teams to successful project completion, while utilizing expertise in JavaScript, HTML5, CSS3, SQL, NoSQL, Apollo GraphQL, GitHub, and more. Skilled in communicating and collaborating with diverse teams of both creative and technical personnel. Adaptable problem-solver with a growth mindset, able to thrive in fast-paced environments and adjust to change.
       </p>
     </div>
   );
