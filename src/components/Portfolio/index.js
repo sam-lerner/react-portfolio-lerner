@@ -16,7 +16,7 @@ const styles = {
 
 export default function Portfolio() {
   return (
-    <Carousel style={styles.header} className="rounded">
+    <Carousel interval="3000" variant="dark" style={styles.header} className="rounded">
       {/* <h1>Recent Projects</h1> */}
       
       {projects.map((element) => {

@@ -37,7 +37,7 @@ export default function PortfolioCard({ project }) {
         <br></br>
         <a href={project.repo_url}>Github Repo</a>
         <br></br>
-        <img className="d-block mx-auto img-fluid" style={{margin:10}} src={project.image_link}/>
+        <img className="d-block mx-auto img-fluid" style={{margin:10, padding: 10, maxHeight:500}} src={project.image_link}/>
         </div>
 
 }
